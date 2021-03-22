@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="P"
+        android:textSize="50dp"
+        android:textColor="#fff"
+        android:background="@drawable/firstwidget" />
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="R"
+        android:textSize="50dp"
+        android:textColor="#fff"
+        android:background="@drawable/secondwidget"/>
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="A"
+        android:textSize="50dp"
+        android:textColor="#fff"
+        android:background="@drawable/thirdwidget" />
+
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="H"
+        android:textSize="50dp"
+        android:textColor="#fff"
+        android:background="@drawable/fourthwidget"/>
+
+
+    <Button
+        android:id="@+id/five"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="L"
+        android:textSize="50dp"
+        android:textColor="#404244"
+        android:background="@drawable/fifthwidget"/>
+
+    <Button
+        android:id="@+id/six"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="A"
+        android:textSize="50dp"
+        android:textColor="#fff"
+        android:background="@drawable/sixthwidget"/>
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="D"
+        android:textSize="50dp"
+        android:textColor="#000080"
+        android:background="@drawable/india"/>
+
+
+
+
+</LinearLayout>
